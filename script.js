@@ -158,7 +158,7 @@ if (special === true){
   var passwd = ''
   var str = opt1 + opt2 + opt3 + opt4;
   
-  for (let i = 1; i <= length.length; i++) {
+  for (let i = 1; i <= length; i++) {
     var char = Math.floor(Math.random() * str.length + 1);  
     passwd += str.charAt(char)
 }
